@@ -1,6 +1,11 @@
 require "selenium-webdriver"
 
-driver = Selenium::WebDriver.for(:firefox)
+PROFLIE_ROOT = File.expand_path("z_tmp", __dir__)
+
+service = Selenium::WebDriver::Service.firefox
+service.args += ["--profile-root", PROFLIE_ROOT]
+
+driver = Selenium::WebDriver.for(:firefox, service: service)
 
 url = "https://github.com/sonota88/ruby-selenium-webdriver-sample"
 driver.navigate.to(url)
