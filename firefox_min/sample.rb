@@ -1,6 +1,7 @@
 require "selenium-webdriver"
 
 PROFLIE_ROOT = File.expand_path("z_tmp", __dir__)
+FileUtils.mkdir_p PROFLIE_ROOT
 
 service = Selenium::WebDriver::Service.firefox
 service.args += ["--profile-root", PROFLIE_ROOT]

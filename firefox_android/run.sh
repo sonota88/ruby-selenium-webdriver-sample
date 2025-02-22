@@ -12,7 +12,4 @@ __DIR__="$(print_this_dir)"
 # https://github.com/mozilla/geckodriver/releases
 export PATH="${__DIR__}/geckodriver-v0.35.0-linux64:${PATH}"
 
-# profile root
-mkdir -p "${__DIR__}/z_tmp"
-
 bundle exec ruby sample.rb
