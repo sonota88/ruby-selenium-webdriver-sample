@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    date (3.4.1)
+    facets (3.1.0)
+    json (2.10.1)
+    logger (1.6.6)
+    os (1.1.4)
+    psych (5.2.3)
+      date
+      stringio
+    rexml (3.4.1)
+    rubyzip (2.4.1)
+    selenium-webdriver (4.29.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    stringio (3.1.5)
+    webdriver-user-agent (7.9)
+      facets
+      json
+      os
+      psych
+      selenium-webdriver (>= 3.4.0)
+    websocket (1.2.11)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  selenium-webdriver (= 4.29.0)
+  webdriver-user-agent (= 7.9)
+
+BUNDLED WITH
+   2.6.2

@@ -1,0 +1,6 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "selenium-webdriver", "4.29.0"
+gem "webdriver-user-agent", "7.9"

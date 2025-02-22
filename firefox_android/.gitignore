@@ -1,0 +1,6 @@
+/.bundle/
+/vendor/bundle/
+/z_tmp/
+/geckodriver-*/
+
+*.gz
