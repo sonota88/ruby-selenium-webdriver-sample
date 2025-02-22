@@ -1,3 +1,6 @@
+mozilla/geckodriver: WebDriver for Firefox  
+https://github.com/mozilla/geckodriver
+
 Firefox specific functionality | Selenium  
 https://www.selenium.dev/documentation/webdriver/browsers/firefox/
 
