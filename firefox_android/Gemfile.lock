@@ -12,11 +12,11 @@ GEM
       stringio
     rexml (3.4.1)
     rubyzip (2.4.1)
-    selenium-webdriver (4.29.0)
+    selenium-webdriver (4.35.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
-      rubyzip (>= 1.2.2, < 3.0)
+      rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
     stringio (3.1.5)
     webdriver-user-agent (7.9)
@@ -32,7 +32,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  selenium-webdriver (= 4.29.0)
+  selenium-webdriver (= 4.35.0)
   webdriver-user-agent (= 7.9)
 
 BUNDLED WITH
