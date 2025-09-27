@@ -10,6 +10,6 @@ print_this_dir() {
 __DIR__="$(print_this_dir)"
 
 # https://github.com/mozilla/geckodriver/releases
-export PATH="${__DIR__}/geckodriver-v0.35.0-linux64:${PATH}"
+export PATH="${__DIR__}/geckodriver-v0.36.0-linux64:${PATH}"
 
 bundle exec ruby sample.rb
